@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18170D5C259A74E4000D4052 /* COS492-BibleMemory WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 18170D5B259A74E4000D4052 /* COS492-BibleMemory WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18170D61259A74E7000D4052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D60259A74E7000D4052 /* Assets.xcassets */; };
+		18170D68259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18170D67259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		18170D6D259A74E7000D4052 /* COS492_BibleMemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18170D6C259A74E7000D4052 /* COS492_BibleMemoryApp.swift */; };
+		18170D6F259A74E7000D4052 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18170D6E259A74E7000D4052 /* ContentView.swift */; };
+		18170D71259A74E7000D4052 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18170D70259A74E7000D4052 /* NotificationController.swift */; };
+		18170D73259A74E7000D4052 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18170D72259A74E7000D4052 /* NotificationView.swift */; };
+		18170D75259A74E7000D4052 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18170D74259A74E7000D4052 /* ComplicationController.swift */; };
+		18170D77259A74EA000D4052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D76259A74EA000D4052 /* Assets.xcassets */; };
+		18170D7A259A74EA000D4052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D79259A74EA000D4052 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18170D5D259A74E4000D4052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18170D51259A74E3000D4052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18170D5A259A74E4000D4052;
+			remoteInfo = "COS492-BibleMemory WatchKit App";
+		};
+		18170D69259A74E7000D4052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18170D51259A74E3000D4052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18170D66259A74E7000D4052;
+			remoteInfo = "COS492-BibleMemory WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18170D82259A74EA000D4052 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18170D68259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18170D86259A74EA000D4052 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				18170D5C259A74E4000D4052 /* COS492-BibleMemory WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18170D57259A74E3000D4052 /* COS492-BibleMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COS492-BibleMemory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18170D5B259A74E4000D4052 /* COS492-BibleMemory WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COS492-BibleMemory WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18170D60259A74E7000D4052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18170D62259A74E7000D4052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18170D67259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "COS492-BibleMemory WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18170D6C259A74E7000D4052 /* COS492_BibleMemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COS492_BibleMemoryApp.swift; sourceTree = "<group>"; };
+		18170D6E259A74E7000D4052 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18170D70259A74E7000D4052 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		18170D72259A74E7000D4052 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		18170D74259A74E7000D4052 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		18170D76259A74EA000D4052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18170D79259A74EA000D4052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18170D7B259A74EA000D4052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18170D7C259A74EA000D4052 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18170D64259A74E7000D4052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18170D50259A74E3000D4052 = {
+			isa = PBXGroup;
+			children = (
+				18170D5F259A74E4000D4052 /* COS492-BibleMemory WatchKit App */,
+				18170D6B259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */,
+				18170D58259A74E3000D4052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18170D58259A74E3000D4052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18170D57259A74E3000D4052 /* COS492-BibleMemory.app */,
+				18170D5B259A74E4000D4052 /* COS492-BibleMemory WatchKit App.app */,
+				18170D67259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18170D5F259A74E4000D4052 /* COS492-BibleMemory WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				18170D60259A74E7000D4052 /* Assets.xcassets */,
+				18170D62259A74E7000D4052 /* Info.plist */,
+			);
+			path = "COS492-BibleMemory WatchKit App";
+			sourceTree = "<group>";
+		};
+		18170D6B259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				18170D6C259A74E7000D4052 /* COS492_BibleMemoryApp.swift */,
+				18170D6E259A74E7000D4052 /* ContentView.swift */,
+				18170D70259A74E7000D4052 /* NotificationController.swift */,
+				18170D72259A74E7000D4052 /* NotificationView.swift */,
+				18170D74259A74E7000D4052 /* ComplicationController.swift */,
+				18170D76259A74EA000D4052 /* Assets.xcassets */,
+				18170D7B259A74EA000D4052 /* Info.plist */,
+				18170D7C259A74EA000D4052 /* PushNotificationPayload.apns */,
+				18170D78259A74EA000D4052 /* Preview Content */,
+			);
+			path = "COS492-BibleMemory WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		18170D78259A74EA000D4052 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18170D79259A74EA000D4052 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18170D56259A74E3000D4052 /* COS492-BibleMemory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18170D87259A74EA000D4052 /* Build configuration list for PBXNativeTarget "COS492-BibleMemory" */;
+			buildPhases = (
+				18170D55259A74E3000D4052 /* Resources */,
+				18170D86259A74EA000D4052 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18170D5E259A74E4000D4052 /* PBXTargetDependency */,
+			);
+			name = "COS492-BibleMemory";
+			productName = "COS492-BibleMemory";
+			productReference = 18170D57259A74E3000D4052 /* COS492-BibleMemory.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		18170D5A259A74E4000D4052 /* COS492-BibleMemory WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18170D83259A74EA000D4052 /* Build configuration list for PBXNativeTarget "COS492-BibleMemory WatchKit App" */;
+			buildPhases = (
+				18170D59259A74E4000D4052 /* Resources */,
+				18170D82259A74EA000D4052 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18170D6A259A74E7000D4052 /* PBXTargetDependency */,
+			);
+			name = "COS492-BibleMemory WatchKit App";
+			productName = "COS492-BibleMemory WatchKit App";
+			productReference = 18170D5B259A74E4000D4052 /* COS492-BibleMemory WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		18170D66259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18170D7F259A74EA000D4052 /* Build configuration list for PBXNativeTarget "COS492-BibleMemory WatchKit Extension" */;
+			buildPhases = (
+				18170D63259A74E7000D4052 /* Sources */,
+				18170D64259A74E7000D4052 /* Frameworks */,
+				18170D65259A74E7000D4052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COS492-BibleMemory WatchKit Extension";
+			productName = "COS492-BibleMemory WatchKit Extension";
+			productReference = 18170D67259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18170D51259A74E3000D4052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					18170D56259A74E3000D4052 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					18170D5A259A74E4000D4052 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					18170D66259A74E7000D4052 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 18170D54259A74E3000D4052 /* Build configuration list for PBXProject "COS492-BibleMemory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18170D50259A74E3000D4052;
+			productRefGroup = 18170D58259A74E3000D4052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18170D56259A74E3000D4052 /* COS492-BibleMemory */,
+				18170D5A259A74E4000D4052 /* COS492-BibleMemory WatchKit App */,
+				18170D66259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18170D55259A74E3000D4052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18170D59259A74E4000D4052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18170D61259A74E7000D4052 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18170D65259A74E7000D4052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18170D7A259A74EA000D4052 /* Preview Assets.xcassets in Resources */,
+				18170D77259A74EA000D4052 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18170D63259A74E7000D4052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18170D71259A74E7000D4052 /* NotificationController.swift in Sources */,
+				18170D6F259A74E7000D4052 /* ContentView.swift in Sources */,
+				18170D75259A74E7000D4052 /* ComplicationController.swift in Sources */,
+				18170D6D259A74E7000D4052 /* COS492_BibleMemoryApp.swift in Sources */,
+				18170D73259A74E7000D4052 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18170D5E259A74E4000D4052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18170D5A259A74E4000D4052 /* COS492-BibleMemory WatchKit App */;
+			targetProxy = 18170D5D259A74E4000D4052 /* PBXContainerItemProxy */;
+		};
+		18170D6A259A74E7000D4052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18170D66259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */;
+			targetProxy = 18170D69259A74E7000D4052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18170D7D259A74EA000D4052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18170D7E259A74EA000D4052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18170D80259A74EA000D4052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"COS492-BibleMemory WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A3LV5L9WW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "COS492-BibleMemory WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiahcannon.COS492-BibleMemory.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		18170D81259A74EA000D4052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"COS492-BibleMemory WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5A3LV5L9WW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "COS492-BibleMemory WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiahcannon.COS492-BibleMemory.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		18170D84259A74EA000D4052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A3LV5L9WW;
+				IBSC_MODULE = COS492_BibleMemory_WatchKit_Extension;
+				INFOPLIST_FILE = "COS492-BibleMemory WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiahcannon.COS492-BibleMemory.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		18170D85259A74EA000D4052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A3LV5L9WW;
+				IBSC_MODULE = COS492_BibleMemory_WatchKit_Extension;
+				INFOPLIST_FILE = "COS492-BibleMemory WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiahcannon.COS492-BibleMemory.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		18170D88259A74EA000D4052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A3LV5L9WW;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiahcannon.COS492-BibleMemory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		18170D89259A74EA000D4052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5A3LV5L9WW;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiahcannon.COS492-BibleMemory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18170D54259A74E3000D4052 /* Build configuration list for PBXProject "COS492-BibleMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18170D7D259A74EA000D4052 /* Debug */,
+				18170D7E259A74EA000D4052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18170D7F259A74EA000D4052 /* Build configuration list for PBXNativeTarget "COS492-BibleMemory WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18170D80259A74EA000D4052 /* Debug */,
+				18170D81259A74EA000D4052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18170D83259A74EA000D4052 /* Build configuration list for PBXNativeTarget "COS492-BibleMemory WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18170D84259A74EA000D4052 /* Debug */,
+				18170D85259A74EA000D4052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18170D87259A74EA000D4052 /* Build configuration list for PBXNativeTarget "COS492-BibleMemory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18170D88259A74EA000D4052 /* Debug */,
+				18170D89259A74EA000D4052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18170D51259A74E3000D4052 /* Project object */;
+}
