@@ -11,10 +11,13 @@ struct ContentView: View {
     var body: some View {
         VStack() {
             //ADD ME: ADD IMAGE HERE
+            //FIX ME: accent color red should be RGB: 136, 0, 27
+            
             Text("Quick Scripture Memory")
                 .font(.body)
                 .fontWeight(.heavy)
-                .foregroundColor(Color(red: 0.6, green: 0.4, blue: 0.2, opacity: 1.0))
+                .foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
+//REMOVE ME (brown): .foregroundColor(Color(red: 0.6, green: 0.4, blue: 0.2, opacity: 1.0))
                 .multilineTextAlignment(.center)
                 .lineLimit(2)
                 .padding()
