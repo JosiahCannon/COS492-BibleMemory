@@ -1,24 +1,23 @@
 //
-//  SelectVerseView.swift
+//  SettingsView.swift
 //  COS492-BibleMemory WatchKit Extension
 //
-//  Created by Josiah Cannon on 12/31/20.
+//  Created by Josiah Cannon on 1/4/21.
 //
-//  Note: this is the view used when user selects "Select Verse" button
 
 import SwiftUI
 
-struct SelectVerseView: View {
+struct SettingsView: View {
     var body: some View {
-        Text("Test SelectVerseView")
+        Text("Test SettingsView")
     }
 }
 
-struct SelectVerseView_Previews: PreviewProvider {
+struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["Apple Watch Series 3 - 38mm", "Apple Watch Series 6 - 44mm"],
                 id: \.self) {
-            deviceName in SelectVerseView()
+            deviceName in SettingsView()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }

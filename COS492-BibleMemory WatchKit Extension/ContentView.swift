@@ -46,14 +46,14 @@ struct ContentView: View {
                         Spacer()
                     }
                     
-                    Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //FIX ME: swap to NavigationLink with destination of SettingsView
-                        HStack {
+                    NavigationLink(
+                        destination: SettingsView(), //FIX ME: swap to NavigationLink with destination of SettingsView
+                        label: {
                             Image(systemName: "gear")
                             Text("Settings")
                                 .lineLimit(1)
-                        }
                         Spacer()
-                    }
+                    })
                 }
             }
             .navigationTitle(Text("Memory"))

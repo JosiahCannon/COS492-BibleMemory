@@ -17,6 +17,7 @@
 		18170D75259A74E7000D4052 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18170D74259A74E7000D4052 /* ComplicationController.swift */; };
 		18170D77259A74EA000D4052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D76259A74EA000D4052 /* Assets.xcassets */; };
 		18170D7A259A74EA000D4052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D79259A74EA000D4052 /* Preview Assets.xcassets */; };
+		1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824F0A725A3A0E900E21DDF /* SettingsView.swift */; };
 		18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D56197259E555E00FA3F85 /* SelectVerseView.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		18170D79259A74EA000D4052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18170D7B259A74EA000D4052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18170D7C259A74EA000D4052 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1824F0A725A3A0E900E21DDF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		18D56197259E555E00FA3F85 /* SelectVerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVerseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 				18170D7C259A74EA000D4052 /* PushNotificationPayload.apns */,
 				18170D78259A74EA000D4052 /* Preview Content */,
 				18D56197259E555E00FA3F85 /* SelectVerseView.swift */,
+				1824F0A725A3A0E900E21DDF /* SettingsView.swift */,
 			);
 			path = "COS492-BibleMemory WatchKit Extension";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */,
 				18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */,
 				18170D71259A74E7000D4052 /* NotificationController.swift in Sources */,
 				18170D6F259A74E7000D4052 /* ContentView.swift in Sources */,
