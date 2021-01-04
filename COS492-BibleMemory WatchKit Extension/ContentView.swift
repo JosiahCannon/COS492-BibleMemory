@@ -13,16 +13,6 @@ struct ContentView: View {
             ScrollView {
                 VStack() {
                     //FIX ME: accent color red should be RGB: 136, 0, 27
-                    
-        //            Text("Quick Scripture Memory")
-        //                .font(.body)
-        //                .fontWeight(.heavy)
-        //                .foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
-        //                //REMOVE ME (brown): .foregroundColor(Color(red: 0.6, green: 0.4, blue: 0.2, opacity: 1.0))
-        //                //.foregroundColor(Color.white) //CHECK ME: change color?
-        //                .multilineTextAlignment(.center)
-        //                .lineLimit(2)
-        //                .padding()
 
                     Image("white-bible-icon_4")
                         .resizable()
@@ -35,7 +25,8 @@ struct ContentView: View {
                             Text("Select Verse")
                                 .lineLimit(1)
                         Spacer()
-                    })
+                        })                        
+                        //.foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
                     
                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
                         HStack {
@@ -47,17 +38,18 @@ struct ContentView: View {
                     }
                     
                     NavigationLink(
-                        destination: SettingsView(), //FIX ME: swap to NavigationLink with destination of SettingsView
+                        destination: SettingsView(),
                         label: {
                             Image(systemName: "gear")
                             Text("Settings")
                                 .lineLimit(1)
                         Spacer()
                     })
+
                 }
             }
-            .navigationTitle(Text("Memory"))
-        } //CHECK ME: change string - change color?
+            .navigationTitle(Text("Memory")) //CHECK ME: change string - change color?
+        }
     }
 }
 
