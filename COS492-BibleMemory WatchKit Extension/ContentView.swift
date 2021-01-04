@@ -22,11 +22,12 @@ struct ContentView: View {
                         destination: SelectVerseView(),
                         label: {
                             Image(systemName: "filemenu.and.selection")
+                                .renderingMode(.original)
+                                //.foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
                             Text("Select Verse")
                                 .lineLimit(1)
                         Spacer()
-                        })                        
-                        //.foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
+                    })
                     
                     Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
                         HStack {
@@ -40,12 +41,11 @@ struct ContentView: View {
                     NavigationLink(
                         destination: SettingsView(),
                         label: {
-                            Image(systemName: "gear")
+                            Image(systemName: "gearshape")
                             Text("Settings")
                                 .lineLimit(1)
                         Spacer()
                     })
-
                 }
             }
             .navigationTitle(Text("Memory")) //CHECK ME: change string - change color?
