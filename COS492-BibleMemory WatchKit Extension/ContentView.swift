@@ -9,47 +9,45 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        //NavigationView {
-            ScrollView {
-                VStack() {
-                    //FIX ME: accent color red should be RGB: 136, 0, 27
-
-                    Image("white-bible-icon_4")
-                        .resizable()
-                        .frame(width: 70.0, height: 60.0)
-                    
-                    NavigationLink(
-                        destination: SelectVerseView(),
-                        label: {
-                            Image(systemName: "filemenu.and.selection")
-                                .renderingMode(.original)
-                                //.foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
-                            Text("Select Verse")
-                                .lineLimit(1)
+        ScrollView {
+            VStack() {
+                //FIX ME: accent color red should be RGB: 136, 0, 27
+                
+                Image("white-bible-icon_4")
+                    .resizable()
+                    .frame(width: 70.0, height: 60.0)
+                
+                NavigationLink(
+                    destination: SelectVerseView(),
+                    label: {
+                        Image(systemName: "filemenu.and.selection")
+                            .renderingMode(.original)
+                        //.foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
+                        Text("Select Verse")
+                            .lineLimit(1)
                         Spacer()
                     })
-                    
-                    Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
-                        HStack {
-                            Image(systemName: "shuffle")
-                            Text("Get Random")
-                                .lineLimit(1)
-                        }
-                        Spacer()
+                
+                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
+                    HStack {
+                        Image(systemName: "shuffle")
+                        Text("Get Random")
+                            .lineLimit(1)
                     }
-                    
-                    NavigationLink(
-                        destination: SettingsView(),
-                        label: {
-                            Image(systemName: "gearshape")
-                            Text("Settings")
-                                .lineLimit(1)
+                    Spacer()
+                }
+                
+                NavigationLink(
+                    destination: SettingsView(),
+                    label: {
+                        Image(systemName: "gearshape")
+                        Text("Settings")
+                            .lineLimit(1)
                         Spacer()
                     })
-                }
             }
-            .navigationTitle(Text("Memory")) //CHECK ME: change string - change color?
-        //}
+        }
+        .navigationTitle(Text("Memory")) //CHECK ME: change string - change color?
     }
 }
 
