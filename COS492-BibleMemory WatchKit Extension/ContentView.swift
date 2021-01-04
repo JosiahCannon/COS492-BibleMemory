@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
+        //NavigationView {
             ScrollView {
                 VStack() {
                     //FIX ME: accent color red should be RGB: 136, 0, 27
@@ -49,7 +49,7 @@ struct ContentView: View {
                 }
             }
             .navigationTitle(Text("Memory")) //CHECK ME: change string - change color?
-        }
+        //}
     }
 }
 
