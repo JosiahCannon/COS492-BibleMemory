@@ -23,7 +23,7 @@ struct ContentView: View {
     //                .lineLimit(2)
     //                .padding()
 
-                Image("white-bible-icon_3") //FIX ME: change icon to NOT have black edges/outline
+                Image("white-bible-icon_4")
                     .resizable()
                     .frame(width: 70.0, height: 60.0)
                 
