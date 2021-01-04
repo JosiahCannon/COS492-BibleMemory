@@ -10,38 +10,50 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            VStack() {
-                //FIX ME: accent color red should be RGB: 136, 0, 27
-                
-    //            Text("Quick Scripture Memory")
-    //                .font(.body)
-    //                .fontWeight(.heavy)
-    //                .foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
-    //                //REMOVE ME (brown): .foregroundColor(Color(red: 0.6, green: 0.4, blue: 0.2, opacity: 1.0))
-    //                //.foregroundColor(Color.white) //CHECK ME: change color?
-    //                .multilineTextAlignment(.center)
-    //                .lineLimit(2)
-    //                .padding()
+            ScrollView {
+                VStack() {
+                    //FIX ME: accent color red should be RGB: 136, 0, 27
+                    
+        //            Text("Quick Scripture Memory")
+        //                .font(.body)
+        //                .fontWeight(.heavy)
+        //                .foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
+        //                //REMOVE ME (brown): .foregroundColor(Color(red: 0.6, green: 0.4, blue: 0.2, opacity: 1.0))
+        //                //.foregroundColor(Color.white) //CHECK ME: change color?
+        //                .multilineTextAlignment(.center)
+        //                .lineLimit(2)
+        //                .padding()
 
-                Image("white-bible-icon_4")
-                    .resizable()
-                    .frame(width: 70.0, height: 60.0)
-                
-                NavigationLink(
-                    destination: SelectVerseView(),
-                    label: {
-                        Image(systemName: "filemenu.and.selection")
-                        Text("Select Verse")
-                            .lineLimit(1)
-                })
-                
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
-                    HStack {
-                        Image(systemName: "shuffle")
-                        Text("Get Random")
-                            .lineLimit(1)
+                    Image("white-bible-icon_4")
+                        .resizable()
+                        .frame(width: 70.0, height: 60.0)
+                    
+                    NavigationLink(
+                        destination: SelectVerseView(),
+                        label: {
+                            Image(systemName: "filemenu.and.selection")
+                            Text("Select Verse")
+                                .lineLimit(1)
+                        Spacer()
+                    })
+                    
+                    Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
+                        HStack {
+                            Image(systemName: "shuffle")
+                            Text("Get Random")
+                                .lineLimit(1)
+                        }
+                        Spacer()
                     }
-                    //Spacer() //- REMOVE ME?
+                    
+                    Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //FIX ME: swap to NavigationLink with destination of SettingsView
+                        HStack {
+                            Image(systemName: "gear")
+                            Text("Settings")
+                                .lineLimit(1)
+                        }
+                        Spacer()
+                    }
                 }
             }
             .navigationTitle(Text("Memory"))
