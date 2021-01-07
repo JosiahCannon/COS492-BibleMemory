@@ -6,9 +6,22 @@
 //
 //  Note: this is the view used when user selects "Select Verse" button
 
+//    class Verse {
+//        var reference: String
+//        var content: String
+//        var book: String
+//
+//        init(reference: String, content: String, book: String) {
+//            self.reference = reference
+//            self.content = content
+//            self.book = book
+//        }
+//    }
+
 import SwiftUI
 
 struct SelectVerseView: View {
+    //REMOVE ME: default body
     var body: some View {
         Text("Test SelectVerseView")
     }

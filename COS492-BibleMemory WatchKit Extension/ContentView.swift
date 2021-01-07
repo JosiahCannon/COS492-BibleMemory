@@ -22,7 +22,6 @@ struct ContentView: View {
                     label: {
                         Image(systemName: "filemenu.and.selection")
                             .renderingMode(.original)
-                        //.foregroundColor(Color(red: 0.533, green: 0.0, blue: 0.106))
                         Text("Select Verse")
                             .lineLimit(1)
                         Spacer()
@@ -38,7 +37,7 @@ struct ContentView: View {
                 }
                 
                 NavigationLink(
-                    destination: SettingsView(),
+                    destination: VerseDetailView(), //CHANGE ME: change back to SettingsView() destination
                     label: {
                         Image(systemName: "gearshape")
                         Text("Settings")
@@ -50,16 +49,6 @@ struct ContentView: View {
         .navigationTitle(Text("Memory")) //CHECK ME: change string - change color?
     }
 }
-
-//struct ContentView_Previews: PreviewProvider { //Note: original preview struct
-//    static var previews: some View {
-//        Group {
-//            ContentView()
-//            ContentView()
-//        }
-//
-//    }
-//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

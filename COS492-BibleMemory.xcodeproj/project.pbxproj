@@ -17,6 +17,9 @@
 		18170D75259A74E7000D4052 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18170D74259A74E7000D4052 /* ComplicationController.swift */; };
 		18170D77259A74EA000D4052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D76259A74EA000D4052 /* Assets.xcassets */; };
 		18170D7A259A74EA000D4052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D79259A74EA000D4052 /* Preview Assets.xcassets */; };
+		181E92D225A7996B0017010E /* VerseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92D125A7996B0017010E /* VerseDetailView.swift */; };
+		181E92D825A79B3D0017010E /* Verse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92D725A79B3D0017010E /* Verse.swift */; };
+		181E92E025A7A5D20017010E /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92DF25A7A5D20017010E /* BookList.swift */; };
 		1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824F0A725A3A0E900E21DDF /* SettingsView.swift */; };
 		18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D56197259E555E00FA3F85 /* SelectVerseView.swift */; };
 /* End PBXBuildFile section */
@@ -78,6 +81,9 @@
 		18170D79259A74EA000D4052 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18170D7B259A74EA000D4052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18170D7C259A74EA000D4052 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		181E92D125A7996B0017010E /* VerseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDetailView.swift; sourceTree = "<group>"; };
+		181E92D725A79B3D0017010E /* Verse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verse.swift; sourceTree = "<group>"; };
+		181E92DF25A7A5D20017010E /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
 		1824F0A725A3A0E900E21DDF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		18D56197259E555E00FA3F85 /* SelectVerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVerseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,6 +130,7 @@
 		18170D6B259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				181E92D625A79B030017010E /* Models */,
 				18170D6C259A74E7000D4052 /* COS492_BibleMemoryApp.swift */,
 				18170D6E259A74E7000D4052 /* ContentView.swift */,
 				18170D70259A74E7000D4052 /* NotificationController.swift */,
@@ -135,6 +142,8 @@
 				18170D78259A74EA000D4052 /* Preview Content */,
 				18D56197259E555E00FA3F85 /* SelectVerseView.swift */,
 				1824F0A725A3A0E900E21DDF /* SettingsView.swift */,
+				181E92D125A7996B0017010E /* VerseDetailView.swift */,
+				181E92DF25A7A5D20017010E /* BookList.swift */,
 			);
 			path = "COS492-BibleMemory WatchKit Extension";
 			sourceTree = "<group>";
@@ -145,6 +154,14 @@
 				18170D79259A74EA000D4052 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		181E92D625A79B030017010E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				181E92D725A79B3D0017010E /* Verse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +292,10 @@
 			files = (
 				1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */,
 				18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */,
+				181E92E025A7A5D20017010E /* BookList.swift in Sources */,
 				18170D71259A74E7000D4052 /* NotificationController.swift in Sources */,
+				181E92D825A79B3D0017010E /* Verse.swift in Sources */,
+				181E92D225A7996B0017010E /* VerseDetailView.swift in Sources */,
 				18170D6F259A74E7000D4052 /* ContentView.swift in Sources */,
 				18170D75259A74E7000D4052 /* ComplicationController.swift in Sources */,
 				18170D6D259A74E7000D4052 /* COS492_BibleMemoryApp.swift in Sources */,
