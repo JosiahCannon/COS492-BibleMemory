@@ -5,15 +5,19 @@
 //  Created by Josiah Cannon on 1/7/21.
 //
 
+//ADD ME: "Practice Mode" toggle in NavigationView bar
+//  - maybe tie this to @State?
+//  - or trigger an entirely separate PracticeVerseView?
+
 import SwiftUI
 
 struct VerseDetailView: View {
     var testVerse1 = Verse(reference: "1:1", content: "In the beginning, God created the heavens and the earth.", shortBook: "Gen", fullBook: "Genesis")
     
+    //FIX ME: should display the attributes of the CHOSEN verse, not just testVerse1
     var body: some View {
         VStack {
             Text(testVerse1.content)
-            Spacer()
             Text(testVerse1.shortBook + " " + testVerse1.reference).foregroundColor(Color.accentColor)
         }
     }

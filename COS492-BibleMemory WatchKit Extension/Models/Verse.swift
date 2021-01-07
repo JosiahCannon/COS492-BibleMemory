@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Verse {
+struct Verse: Decodable {
     var reference: String
     var content: String
     var shortBook: String

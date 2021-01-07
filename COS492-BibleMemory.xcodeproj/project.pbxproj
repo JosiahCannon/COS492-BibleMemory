@@ -20,6 +20,10 @@
 		181E92D225A7996B0017010E /* VerseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92D125A7996B0017010E /* VerseDetailView.swift */; };
 		181E92D825A79B3D0017010E /* Verse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92D725A79B3D0017010E /* Verse.swift */; };
 		181E92E025A7A5D20017010E /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92DF25A7A5D20017010E /* BookList.swift */; };
+		181E92E525A7A8C10017010E /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92E425A7A8C10017010E /* BookData.swift */; };
+		181E92EA25A7A8CC0017010E /* VerseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92E925A7A8CC0017010E /* VerseData.swift */; };
+		181E92F325A7AA050017010E /* bookData.json in Resources */ = {isa = PBXBuildFile; fileRef = 181E92F225A7AA050017010E /* bookData.json */; };
+		181E92F825A7AB630017010E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92F725A7AB630017010E /* Book.swift */; };
 		1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824F0A725A3A0E900E21DDF /* SettingsView.swift */; };
 		18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D56197259E555E00FA3F85 /* SelectVerseView.swift */; };
 /* End PBXBuildFile section */
@@ -84,6 +88,10 @@
 		181E92D125A7996B0017010E /* VerseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDetailView.swift; sourceTree = "<group>"; };
 		181E92D725A79B3D0017010E /* Verse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verse.swift; sourceTree = "<group>"; };
 		181E92DF25A7A5D20017010E /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		181E92E425A7A8C10017010E /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
+		181E92E925A7A8CC0017010E /* VerseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseData.swift; sourceTree = "<group>"; };
+		181E92F225A7AA050017010E /* bookData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = bookData.json; path = ../../../../../../../../Desktop/bookData.json; sourceTree = "<group>"; };
+		181E92F725A7AB630017010E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		1824F0A725A3A0E900E21DDF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		18D56197259E555E00FA3F85 /* SelectVerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVerseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,6 +138,7 @@
 		18170D6B259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				181E92EE25A7A90C0017010E /* Resources */,
 				181E92D625A79B030017010E /* Models */,
 				18170D6C259A74E7000D4052 /* COS492_BibleMemoryApp.swift */,
 				18170D6E259A74E7000D4052 /* ContentView.swift */,
@@ -160,8 +169,19 @@
 			isa = PBXGroup;
 			children = (
 				181E92D725A79B3D0017010E /* Verse.swift */,
+				181E92E425A7A8C10017010E /* BookData.swift */,
+				181E92E925A7A8CC0017010E /* VerseData.swift */,
+				181E92F725A7AB630017010E /* Book.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		181E92EE25A7A90C0017010E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				181E92F225A7AA050017010E /* bookData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181E92F325A7AA050017010E /* bookData.json in Resources */,
 				18170D7A259A74EA000D4052 /* Preview Assets.xcassets in Resources */,
 				18170D77259A74EA000D4052 /* Assets.xcassets in Resources */,
 			);
@@ -293,12 +314,15 @@
 				1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */,
 				18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */,
 				181E92E025A7A5D20017010E /* BookList.swift in Sources */,
+				181E92E525A7A8C10017010E /* BookData.swift in Sources */,
 				18170D71259A74E7000D4052 /* NotificationController.swift in Sources */,
+				181E92EA25A7A8CC0017010E /* VerseData.swift in Sources */,
 				181E92D825A79B3D0017010E /* Verse.swift in Sources */,
 				181E92D225A7996B0017010E /* VerseDetailView.swift in Sources */,
 				18170D6F259A74E7000D4052 /* ContentView.swift in Sources */,
 				18170D75259A74E7000D4052 /* ComplicationController.swift in Sources */,
 				18170D6D259A74E7000D4052 /* COS492_BibleMemoryApp.swift in Sources */,
+				181E92F825A7AB630017010E /* Book.swift in Sources */,
 				18170D73259A74E7000D4052 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
