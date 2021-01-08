@@ -19,6 +19,8 @@ struct BookRow: View {
         HStack {
             Text(book.fullName)
             Spacer()
+            
+            //CHECK ME: removed genre from row because it can't fit in row eith long book.fullname and small display
             //Text(book.genre).foregroundColor(.gray) //ADD ME: change text color to be gray?
             //Spacer()
         }
@@ -27,9 +29,9 @@ struct BookRow: View {
 
 struct BookRow_Previews: PreviewProvider {
     static var previews: some View {
-        //Group {
-        BookRow(book: bookData[0])
-        //}
-        //.previewLayout(.fixed(width: 300, height: 70))
+        Group {
+            BookRow(book: bookData[0])
+        }
+        .previewLayout(.fixed(width: 150, height: 50))
     }
 }

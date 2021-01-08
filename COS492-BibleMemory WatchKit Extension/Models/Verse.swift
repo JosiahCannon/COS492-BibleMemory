@@ -7,9 +7,10 @@
 
 import SwiftUI
 
-struct Verse: Decodable {
+struct Verse: Identifiable, Decodable {
     var reference: String
     var content: String
     var shortBook: String
     var fullBook: String
+    var id: Int
 }

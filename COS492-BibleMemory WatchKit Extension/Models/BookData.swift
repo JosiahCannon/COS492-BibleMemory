@@ -8,9 +8,9 @@
 import SwiftUI
 import CoreLocation
 
-let bookData: [Book] = load("bookData.json")
+let bookData: [Book] = loadBooks("bookData.json")
 
-func load<T: Decodable>(_ filename: String) -> T {
+func loadBooks<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)

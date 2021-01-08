@@ -9,17 +9,21 @@
 //  - maybe tie this to @State?
 //  - or trigger an entirely separate PracticeVerseView?
 
+//ADD ME: fix back button so it goes back to SelectVerseView instead of ContentView (should go back one view instead of all the way home)
+
 import SwiftUI
 
 struct VerseDetailView: View {
-    var testVerse1 = Verse(reference: "1:1", content: "In the beginning, God created the heavens and the earth.", shortBook: "Gen", fullBook: "Genesis")
+    var verse: Verse
     
-    //FIX ME: should display the attributes of the CHOSEN verse, not just testVerse1
     var body: some View {
-        VStack {
-            Text(testVerse1.content)
-            Text(testVerse1.shortBook + " " + testVerse1.reference).foregroundColor(Color.accentColor)
+        ScrollView {
+            VStack {
+                Text(verse.content)
+                Text(verse.shortBook + " " + verse.reference).foregroundColor(Color.accentColor)
+            }
         }
+        //.navigationBarTitle(Text(book.fullName)) //FIX ME: choose title and uncomment this line
     }
 }
 
@@ -27,7 +31,7 @@ struct VerseDetailView_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["Apple Watch Series 3 - 38mm", "Apple Watch Series 6 - 44mm"],
                 id: \.self) {
-            deviceName in VerseDetailView()
+            deviceName in VerseDetailView(verse: verseData[0])
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }
