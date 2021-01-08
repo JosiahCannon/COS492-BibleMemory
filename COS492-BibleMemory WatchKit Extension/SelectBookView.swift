@@ -10,8 +10,20 @@ import SwiftUI
 
 struct SelectBookView: View {
     //ADD ME: should be a list of all the books (and each book should be a link to a list of the available verat book)s
+//    var body: some View {
+//        Text("Test SelectBookView")
+//    }
     var body: some View {
-        Text("Test SelectBookView")
+        NavigationView {
+            List(bookData) { book in
+                BookRow(book: book)
+
+//                NavigationLink(destination: SelectVerseView(book: Book)) {
+//                    BookRow(book: Book)
+//                }
+            }
+            .navigationBarTitle(Text("Books of the Bible"))
+        }
     }
 }
 

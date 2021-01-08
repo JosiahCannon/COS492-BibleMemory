@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct Book: Decodable {
+struct Book: Identifiable, Decodable {
+    var id: Int
     var fullName: String
     var shortName: String
     var genre: String
