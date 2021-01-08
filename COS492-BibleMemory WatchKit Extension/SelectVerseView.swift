@@ -4,7 +4,7 @@
 //
 //  Created by Josiah Cannon on 12/31/20.
 //
-//  Note: this is the view used when user selects "Select Verse" button
+//  Note: this is the view used when user picks a Book from within SelectBookView
 
 //    class Verse {
 //        var reference: String

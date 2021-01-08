@@ -19,11 +19,11 @@
 		18170D7A259A74EA000D4052 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18170D79259A74EA000D4052 /* Preview Assets.xcassets */; };
 		181E92D225A7996B0017010E /* VerseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92D125A7996B0017010E /* VerseDetailView.swift */; };
 		181E92D825A79B3D0017010E /* Verse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92D725A79B3D0017010E /* Verse.swift */; };
-		181E92E025A7A5D20017010E /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92DF25A7A5D20017010E /* BookList.swift */; };
 		181E92E525A7A8C10017010E /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92E425A7A8C10017010E /* BookData.swift */; };
 		181E92EA25A7A8CC0017010E /* VerseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92E925A7A8CC0017010E /* VerseData.swift */; };
 		181E92F825A7AB630017010E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E92F725A7AB630017010E /* Book.swift */; };
 		181E92FD25A8DD840017010E /* bookData.json in Resources */ = {isa = PBXBuildFile; fileRef = 181E92FC25A8DD840017010E /* bookData.json */; };
+		181E930825A8F5BD0017010E /* SelectBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E930725A8F5BD0017010E /* SelectBookView.swift */; };
 		1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824F0A725A3A0E900E21DDF /* SettingsView.swift */; };
 		18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D56197259E555E00FA3F85 /* SelectVerseView.swift */; };
 /* End PBXBuildFile section */
@@ -87,11 +87,11 @@
 		18170D7C259A74EA000D4052 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		181E92D125A7996B0017010E /* VerseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseDetailView.swift; sourceTree = "<group>"; };
 		181E92D725A79B3D0017010E /* Verse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verse.swift; sourceTree = "<group>"; };
-		181E92DF25A7A5D20017010E /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
 		181E92E425A7A8C10017010E /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 		181E92E925A7A8CC0017010E /* VerseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseData.swift; sourceTree = "<group>"; };
 		181E92F725A7AB630017010E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		181E92FC25A8DD840017010E /* bookData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bookData.json; sourceTree = "<group>"; };
+		181E930725A8F5BD0017010E /* SelectBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBookView.swift; sourceTree = "<group>"; };
 		1824F0A725A3A0E900E21DDF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		18D56197259E555E00FA3F85 /* SelectVerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVerseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,7 +152,7 @@
 				18D56197259E555E00FA3F85 /* SelectVerseView.swift */,
 				1824F0A725A3A0E900E21DDF /* SettingsView.swift */,
 				181E92D125A7996B0017010E /* VerseDetailView.swift */,
-				181E92DF25A7A5D20017010E /* BookList.swift */,
+				181E930725A8F5BD0017010E /* SelectBookView.swift */,
 			);
 			path = "COS492-BibleMemory WatchKit Extension";
 			sourceTree = "<group>";
@@ -312,8 +312,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */,
+				181E930825A8F5BD0017010E /* SelectBookView.swift in Sources */,
 				18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */,
-				181E92E025A7A5D20017010E /* BookList.swift in Sources */,
 				181E92E525A7A8C10017010E /* BookData.swift in Sources */,
 				18170D71259A74E7000D4052 /* NotificationController.swift in Sources */,
 				181E92EA25A7A8CC0017010E /* VerseData.swift in Sources */,

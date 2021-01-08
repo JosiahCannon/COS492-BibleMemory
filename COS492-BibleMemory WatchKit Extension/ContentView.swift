@@ -18,7 +18,7 @@ struct ContentView: View {
                     .frame(width: 70.0, height: 60.0)
                 
                 NavigationLink(
-                    destination: SelectVerseView(),
+                    destination: SelectBookView(),
                     label: {
                         Image(systemName: "filemenu.and.selection")
                             .renderingMode(.original)
@@ -27,17 +27,27 @@ struct ContentView: View {
                         Spacer()
                     })
                 
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
-                    HStack {
+//                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
+//                    HStack {
+//                        Image(systemName: "shuffle")
+//                        Text("Get Random")
+//                            .lineLimit(1)
+//                    }
+//                    Spacer()
+//                }
+                
+                //REMOVE ME? - DEBUG for VerseDetailView ONLY
+                NavigationLink(
+                    destination: VerseDetailView(), //CHANGE ME: change back to SettingsView() destination
+                    label: {
                         Image(systemName: "shuffle")
                         Text("Get Random")
                             .lineLimit(1)
-                    }
-                    Spacer()
-                }
+                        Spacer()
+                    })
                 
                 NavigationLink(
-                    destination: VerseDetailView(), //CHANGE ME: change back to SettingsView() destination
+                    destination: SettingsView(), //CHANGE ME: change back to SettingsView() destination
                     label: {
                         Image(systemName: "gearshape")
                         Text("Settings")
