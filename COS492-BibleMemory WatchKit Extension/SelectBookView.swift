@@ -4,6 +4,7 @@
 //
 //  Created by Josiah Cannon on 1/8/21.
 //
+//  Note: this is the view used when user clicks "Select Verse" NavigationLink
 
 import SwiftUI
 

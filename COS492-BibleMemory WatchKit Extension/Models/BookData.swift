@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreLocation
 
-let bookData: [Book] = load("bookData.json")
+let bookData: [Book] = load("test_bookData.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

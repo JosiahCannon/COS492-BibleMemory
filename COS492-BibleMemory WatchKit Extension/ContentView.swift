@@ -22,7 +22,7 @@ struct ContentView: View {
                     label: {
                         Image(systemName: "filemenu.and.selection")
                             .renderingMode(.original)
-                        Text("Select Verse")
+                        Text("Select Verse") //CHECK ME: change text to "Select Book"?
                             .lineLimit(1)
                         Spacer()
                     })
