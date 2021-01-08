@@ -11,4 +11,5 @@ struct Book: Decodable {
     var fullName: String
     var shortName: String
     var genre: String
+    var group: String
 }
