@@ -10,17 +10,16 @@ import SwiftUI
 
 struct SelectVerseView: View {
     let book: Book
-    
-    //CHECK ME: should display a list of all the verses available in the selected book
-    
+        
     var body: some View {
         NavigationView {
-            List(verseData) { verse in
-                //VerseRow(verse: verse) //DEBUG ONLY - remove
-
-                //FIX ME: only displays one verse, but as many times as there are total verses in verseData.json
-                NavigationLink(destination: VerseDetailView(verse: verse)) {
-                    VerseRow(verse: verse)
+            List {
+                ForEach(verseData) { verse in
+                    if verse.fullBook == book.fullName {
+                        NavigationLink(destination: VerseDetailView(verse: verse)) {
+                            VerseRow(verse: verse)
+                        }
+                    }
                 }
             }
         }

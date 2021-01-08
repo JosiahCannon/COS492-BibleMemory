@@ -5,13 +5,6 @@
 //  Created by Josiah Cannon on 1/8/21.
 //
 
-//REMOVE ME: DEBUG only
-//    var body: some View {
-//        Text("Test VerseRow.swift")
-//    }
-
-//ADD ME: pass in book.name and check against verse.fullbook to only show rows of verses from the chosen book?
-
 import SwiftUI
 
 struct VerseRow: View {

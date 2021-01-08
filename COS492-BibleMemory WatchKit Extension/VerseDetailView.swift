@@ -23,7 +23,7 @@ struct VerseDetailView: View {
                 Text(verse.shortBook + " " + verse.reference).foregroundColor(Color.accentColor)
             }
         }
-        //.navigationBarTitle(Text(book.fullName)) //FIX ME: choose title and uncomment this line
+        .navigationBarTitle(Text(verse.shortBook + " " + verse.reference)) //FIX ME: choose title and uncomment this line?
     }
 }
 

@@ -18,7 +18,7 @@ struct ContentView: View {
                     .frame(width: 70.0, height: 60.0)
                 
                 NavigationLink(
-                    destination: SelectBookView(), //FIX ME: change back to SelectBookView()
+                    destination: SelectBookView(),
                     label: {
                         Image(systemName: "filemenu.and.selection")
                             .renderingMode(.original)
@@ -27,27 +27,27 @@ struct ContentView: View {
                         Spacer()
                     })
                 
-//                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
-//                    HStack {
-//                        Image(systemName: "shuffle")
-//                        Text("Get Random")
-//                            .lineLimit(1)
-//                    }
-//                    Spacer()
-//                }
-                
-                //REMOVE ME? - DEBUG for VerseDetailView ONLY
-                NavigationLink(
-                    destination: SettingsView(), //CHANGE ME: change back to SettingsView() destination
-                    label: {
+                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
+                    HStack {
                         Image(systemName: "shuffle")
                         Text("Get Random")
                             .lineLimit(1)
-                        Spacer()
-                    })
+                    }
+                    Spacer()
+                }
+                
+                //REMOVE ME? - DEBUG for VerseDetailView ONLY
+//                NavigationLink(
+//                    destination: SettingsView(), //CHANGE ME: change back to SettingsView() destination
+//                    label: {
+//                        Image(systemName: "shuffle")
+//                        Text("Get Random")
+//                            .lineLimit(1)
+//                        Spacer()
+//                    })
                 
                 NavigationLink(
-                    destination: SettingsView(), //CHANGE ME: change back to SettingsView() destination
+                    destination: SettingsView(),
                     label: {
                         Image(systemName: "gearshape")
                         Text("Settings")
