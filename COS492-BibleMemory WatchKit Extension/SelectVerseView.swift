@@ -23,8 +23,8 @@ struct SelectVerseView: View {
                     VerseRow(verse: verse)
                 }
             }
-            .navigationBarTitle(Text(book.fullName))
         }
+        .navigationBarTitle(Text(book.fullName))
     }
 }
 
