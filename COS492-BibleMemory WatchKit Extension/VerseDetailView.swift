@@ -13,6 +13,8 @@
 //ADD ME: replace random words in that String variable with underscores
 //ADD ME: display this edited variable when !isPracticeOn
 
+//LAST RESORT: hard code a "practiceContent" String for each verse in verseData.json
+
 import SwiftUI
 
 struct VerseDetailView: View {
