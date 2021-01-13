@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var randVerse = verseData.randomElement()
+
+    func chooseRandVerse() { //re-chooses random Verse on function call
+        randVerse = verseData.randomElement()
+    }
+    
     var body: some View {
         ScrollView {
             VStack() {
                 //FIX ME: accent color red should be RGB: 136, 0, 27
-                
+
                 Image("white-bible-icon_4")
                     .resizable()
                     .frame(width: 70.0, height: 60.0)
@@ -27,24 +33,15 @@ struct ContentView: View {
                         Spacer()
                     })
                 
-                Button(action: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/{}/*@END_MENU_TOKEN@*/) { //ADD ME: ADD ACTION HERE (go to random verse's detailView
-                    HStack {
+                NavigationLink(
+                    destination: VerseDetailView(verse: randVerse!), //CHECK ME: force unwrap with "!"??
+                    label: {
                         Image(systemName: "shuffle")
                         Text("Get Random")
                             .lineLimit(1)
-                    }
-                    Spacer()
-                }
-                
-                //REMOVE ME? - DEBUG for VerseDetailView ONLY
-//                NavigationLink(
-//                    destination: SettingsView(), //CHANGE ME: change back to SettingsView() destination
-//                    label: {
-//                        Image(systemName: "shuffle")
-//                        Text("Get Random")
-//                            .lineLimit(1)
-//                        Spacer()
-//                    })
+                        Spacer()
+                    })
+                    .onAppear(perform: chooseRandVerse) //assigns new random Verse to variable each time "Get Random" is pressed
                 
                 NavigationLink(
                     destination: SettingsView(),
