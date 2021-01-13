@@ -28,7 +28,6 @@
 		181E931725A906670017010E /* verseData.json in Resources */ = {isa = PBXBuildFile; fileRef = 181E931625A906670017010E /* verseData.json */; };
 		181E931C25A908600017010E /* VerseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E931B25A908600017010E /* VerseRow.swift */; };
 		1824F0A825A3A0E900E21DDF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824F0A725A3A0E900E21DDF /* SettingsView.swift */; };
-		18884ACD25AEA6AA00F696A1 /* VersePracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18884ACC25AEA6AA00F696A1 /* VersePracticeView.swift */; };
 		18D56198259E555E00FA3F85 /* SelectVerseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D56197259E555E00FA3F85 /* SelectVerseView.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,7 +99,6 @@
 		181E931625A906670017010E /* verseData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = verseData.json; sourceTree = "<group>"; };
 		181E931B25A908600017010E /* VerseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseRow.swift; sourceTree = "<group>"; };
 		1824F0A725A3A0E900E21DDF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		18884ACC25AEA6AA00F696A1 /* VersePracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersePracticeView.swift; sourceTree = "<group>"; };
 		18D56197259E555E00FA3F85 /* SelectVerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVerseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,7 +159,6 @@
 				1824F0A725A3A0E900E21DDF /* SettingsView.swift */,
 				181E92D125A7996B0017010E /* VerseDetailView.swift */,
 				181E930725A8F5BD0017010E /* SelectBookView.swift */,
-				18884ACC25AEA6AA00F696A1 /* VersePracticeView.swift */,
 			);
 			path = "COS492-BibleMemory WatchKit Extension";
 			sourceTree = "<group>";
@@ -337,7 +334,6 @@
 				18170D75259A74E7000D4052 /* ComplicationController.swift in Sources */,
 				18170D6D259A74E7000D4052 /* COS492_BibleMemoryApp.swift in Sources */,
 				181E92F825A7AB630017010E /* Book.swift in Sources */,
-				18884ACD25AEA6AA00F696A1 /* VersePracticeView.swift in Sources */,
 				18170D73259A74E7000D4052 /* NotificationView.swift in Sources */,
 				181E930D25A8F7AC0017010E /* BookRow.swift in Sources */,
 			);
