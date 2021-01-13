@@ -5,6 +5,8 @@
 //  Created by Josiah Cannon on 1/12/21.
 //
 
+//FIX ME: REMOVE THIS FILE - IMPORTANT
+
 import SwiftUI
 
 struct VersePracticeView: View {

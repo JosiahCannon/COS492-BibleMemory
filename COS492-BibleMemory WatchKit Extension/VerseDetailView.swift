@@ -30,12 +30,14 @@ struct VerseDetailView: View {
                     Text(verse.content)
                 }
                 
+                Spacer()
+                
                 Text(verse.shortBook + " " + verse.reference).foregroundColor(Color.accentColor).padding(.bottom, 10.0)
                 
                 Spacer()
+                Divider()
                 
-                PracticeToggle(isPracticeOn: $isPracticeOn)
-                
+                PracticeToggle(isPracticeOn: $isPracticeOn) //CHANGE ME: move to top of VStack?
             }
         }
         .navigationTitle(Text(verse.shortBook))
@@ -48,12 +50,12 @@ struct PracticeToggle: View { //FIX ME: need to trigger verse.content change HER
     var body: some View {
         Toggle(isOn: $isPracticeOn) {
             Spacer()
-            Text("Practice").foregroundColor(.white)
+            Text("Practice").foregroundColor(.gray)
         }
-        .padding(.all, 5.0)
-        .overlay(RoundedRectangle(cornerRadius: 15)
-                    .stroke(lineWidth: 2)
-                    .foregroundColor(isPracticeOn ? .green : .gray))
+        .padding(.all, 5.0).foregroundColor(isPracticeOn ? .green : .gray)
+        //.overlay(RoundedRectangle(cornerRadius: 15)
+                    //.stroke(lineWidth: 2)
+                    
     }
 }
 
