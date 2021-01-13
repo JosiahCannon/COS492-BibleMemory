@@ -9,8 +9,6 @@
 //  - maybe tie this to @State?
 //  - or trigger an entirely separate PracticeVerseView?
 
-//ADD ME: fix back button so it goes back to SelectVerseView instead of ContentView (should go back one view instead of all the way home)
-
 import SwiftUI
 
 struct VerseDetailView: View {
@@ -23,7 +21,7 @@ struct VerseDetailView: View {
                 Text(verse.shortBook + " " + verse.reference).foregroundColor(Color.accentColor)
             }
         }
-        //.navigationBarTitle(Text(verse.shortBook + " " + verse.reference)) //FIX ME: choose title and uncomment this line?
+        .navigationTitle(Text(verse.shortBook))
     }
 }
 

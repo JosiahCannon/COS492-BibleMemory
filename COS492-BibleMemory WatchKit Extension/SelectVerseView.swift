@@ -10,20 +10,18 @@ import SwiftUI
 
 struct SelectVerseView: View {
     let book: Book
-        
+    
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(verseData) { verse in
-                    if verse.fullBook == book.fullName {
-                        NavigationLink(destination: VerseDetailView(verse: verse)) {
-                            VerseRow(verse: verse)
-                        }
+        List {
+            ForEach(verseData) { verse in
+                if verse.fullBook == book.fullName {
+                    NavigationLink(destination: VerseDetailView(verse: verse)) {
+                        VerseRow(verse: verse).lineLimit(1)
                     }
                 }
             }
         }
-        .navigationBarTitle(Text(book.fullName))
+        .navigationTitle(Text(book.fullName))
     }
 }
 
