@@ -24,6 +24,8 @@ struct VerseDetailView: View {
             VStack {
                 //Text("DEBUG detail VIEW") //REMOVE ME
                 if isPracticeOn {
+                    //TRY ME: call function to edit verse.content and return edited variable to use in Text()
+                    
                     Text("TEST ME")
                 }
                 else {
@@ -49,7 +51,6 @@ struct PracticeToggle: View { //FIX ME: need to trigger verse.content change HER
 
     var body: some View {
         Toggle(isOn: $isPracticeOn) {
-            Spacer()
             Text("Practice").foregroundColor(.gray)
         }
         .padding(.all, 5.0).foregroundColor(isPracticeOn ? .green : .gray)
