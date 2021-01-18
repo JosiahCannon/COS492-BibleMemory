@@ -16,6 +16,7 @@ struct SettingsView: View {
         VStack {
             NotificationToggle(isNotifOn: $isNotifOn)
         }
+        .navigationTitle(Text("Settings")) //CHECK ME: change string?
     }
 }
 
@@ -35,7 +36,6 @@ struct NotificationToggle: View {
             Divider()
                 .background(Color.gray).frame(width: 200.0, height: 1.0)
         }
-        .navigationTitle(Text("Settings")) //CHECK ME: change string?
         
         Spacer()
     }
