@@ -25,7 +25,7 @@ struct NotificationToggle: View {
     var body: some View {
         VStack {
             Toggle(isOn: $isNotifOn) {
-                Image(systemName: "clock.arrow.2.circlepath").foregroundColor(isNotifOn ? .green : .white)
+                Image(systemName: "clock.arrow.circlepath").foregroundColor(isNotifOn ? .green : .white)
                 
                 Text("Daily").foregroundColor(.white)
             }
@@ -33,7 +33,7 @@ struct NotificationToggle: View {
             .padding(.trailing, 5.0)
             
             Divider()
-                .background(Color.gray).frame(width: 150.0, height: 1.0)
+                .background(Color.gray).frame(width: 200.0, height: 1.0)
         }
         .navigationTitle(Text("Settings")) //CHECK ME: change string?
         
