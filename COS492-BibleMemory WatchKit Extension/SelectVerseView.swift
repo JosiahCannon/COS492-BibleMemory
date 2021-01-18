@@ -9,36 +9,16 @@
 import SwiftUI
 
 struct SelectVerseView: View {
-    //@State var isPracticeOn: Bool = false
     let book: Book
     
     var body: some View {
         VStack {
-//            Spacer()
-//
-//            Toggle(isOn: $isPracticeOn) {
-//                Spacer()
-//                Text("Practice").foregroundColor(.white)
-//            }
-//            .padding(.all, 5.0)
-//            .overlay(RoundedRectangle(cornerRadius: 15)
-//                    .stroke(lineWidth: 2)
-//                        .foregroundColor(isPracticeOn ? .green : .gray))
-            
             List {
                 ForEach(verseData) { verse in
                     if verse.fullBook == book.fullName {
-                        //if isPracticeOn == false {
-                            NavigationLink(destination: VerseDetailView(verse: verse)) {
-                                VerseRow(verse: verse).lineLimit(1)
-                            }
-//                        }
-//                        else if isPracticeOn == true {
-//                            NavigationLink(destination: VersePracticeView(verse: verse)) {
-//                                VerseRow(verse: verse).lineLimit(1)
-//                            }
-//                        }
-                        
+                        NavigationLink(destination: VerseDetailView(verse: verse)) {
+                            VerseRow(verse: verse).lineLimit(1)
+                        }
                     }
                 }
             }

@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @State private var randVerse = verseData.randomElement()
 
-    func chooseRandVerse() { //re-chooses random Verse on function call
+    //re-chooses random Verse on function call
+    func chooseRandVerse() {
         randVerse = verseData.randomElement()
     }
     

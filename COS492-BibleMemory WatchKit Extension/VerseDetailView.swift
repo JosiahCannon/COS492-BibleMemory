@@ -5,30 +5,42 @@
 //  Created by Josiah Cannon on 1/7/21.
 //
 
-//ADD ME: "Practice Mode" toggle in NavigationView bar
-//  - maybe tie this to @State?
-//  - or trigger an entirely separate PracticeVerseView?
-
-//ADD ME: put verse.content into variable
-//ADD ME: replace random words in that String variable with underscores
-//ADD ME: display this edited variable when !isPracticeOn
-
-//LAST RESORT: hard code a "practiceContent" String for each verse in verseData.json
-
 import SwiftUI
 
 struct VerseDetailView: View {
     var verse: Verse
     @State private var isPracticeOn: Bool = false
     
+    func showPractice() -> String {
+        let verseOne: String = verse.content
+        var practiceArray = verseOne.components(separatedBy: " ")
+        let arrayLength = practiceArray.count
+        
+        for element in 1..<arrayLength {
+            let rand = Int.random(in: 1..<100)
+                
+            if rand % 2 == 0 { //if rand is EVEN, replace element in index with blank ("_")
+                let letterCnt = practiceArray[element].count
+                var blank = "_"
+ 
+                for _ in 1..<letterCnt {
+                    blank.append("_")
+                }
+                
+                practiceArray[element] = blank
+            }
+        }
+        
+        let practiceVerse = practiceArray.joined(separator: " ")
+        
+        return practiceVerse
+    }
+    
     var body: some View {
         ScrollView {
             VStack {
-                //Text("DEBUG detail VIEW") //REMOVE ME
                 if isPracticeOn {
-                    //TRY ME: call function to edit verse.content and return edited variable to use in Text()
-                    
-                    Text("TEST ME")
+                    Text(showPractice())
                 }
                 else {
                     Text(verse.content)
@@ -48,7 +60,7 @@ struct VerseDetailView: View {
     }
 }
 
-struct PracticeToggle: View { //FIX ME: need to trigger verse.content change HERE
+struct PracticeToggle: View {
     @Binding var isPracticeOn: Bool
 
     var body: some View {
