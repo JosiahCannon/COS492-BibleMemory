@@ -10,7 +10,7 @@
 import SwiftUI
 
 struct SettingsView: View {
-    @State private var isNotifOn: Bool = false
+    @AppStorage("Daily") private var isNotifOn: Bool = false
     
     var body: some View {
         VStack {
