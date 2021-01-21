@@ -68,9 +68,6 @@ struct PracticeToggle: View {
             Text("Practice").foregroundColor(.gray)
         }
         .padding(.all, 5.0).foregroundColor(isPracticeOn ? .green : .gray)
-        //.overlay(RoundedRectangle(cornerRadius: 15)
-        //.stroke(lineWidth: 2)
-        
     }
 }
 

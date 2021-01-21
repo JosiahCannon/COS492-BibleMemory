@@ -10,10 +10,6 @@ import SwiftUI
 struct NotificationView: View {
     var body: some View {
         VStack {
-//            Image("white-bible-icon_4")
-//                .resizable()
-//                .frame(width: 70.0, height: 60.0)
-            
             Text("DAILY REMINDER")
                 .multilineTextAlignment(.center).foregroundColor(.accentColor)
             Divider()

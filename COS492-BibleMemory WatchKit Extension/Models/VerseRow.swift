@@ -12,7 +12,7 @@ struct VerseRow: View {
     
     var body: some View {
         HStack {
-            Text(verse.reference) //CHECK ME: remove and/or change?
+            Text(verse.reference)
             Text(verse.content).lineLimit(1).foregroundColor(.gray)
             Spacer()
         }

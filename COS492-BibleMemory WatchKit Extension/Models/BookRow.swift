@@ -5,11 +5,6 @@
 //  Created by Josiah Cannon on 1/8/21.
 //
 
-//REMOVE ME: DEBUG only
-//    var body: some View {
-//        Text("Test BookRow.swift")
-//    }
-
 import SwiftUI
 
 struct BookRow: View {
@@ -19,10 +14,6 @@ struct BookRow: View {
         HStack {
             Text(book.fullName)
             Spacer()
-            
-            //CHECK ME: removed genre from row because it can't fit in row eith long book.fullname and small display
-            //Text(book.genre).foregroundColor(.gray) //ADD ME: change text color to be gray?
-            //Spacer()
         }
     }
 }
