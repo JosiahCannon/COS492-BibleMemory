@@ -18,11 +18,11 @@ struct VerseDetailView: View {
         
         for element in 1..<arrayLength {
             let rand = Int.random(in: 1..<100)
-                
+            
             if rand % 2 == 0 { //if rand is EVEN, replace element in index with blank ("_")
                 let letterCnt = practiceArray[element].count
                 var blank = "_"
- 
+                
                 for _ in 1..<letterCnt {
                     blank.append("_")
                 }
@@ -53,7 +53,7 @@ struct VerseDetailView: View {
                 Spacer()
                 Divider()
                 
-                PracticeToggle(isPracticeOn: $isPracticeOn) //CHANGE ME: move to top of VStack?
+                PracticeToggle(isPracticeOn: $isPracticeOn)
             }
         }
         .navigationTitle(Text(verse.shortBook))
@@ -62,15 +62,15 @@ struct VerseDetailView: View {
 
 struct PracticeToggle: View {
     @Binding var isPracticeOn: Bool
-
+    
     var body: some View {
         Toggle(isOn: $isPracticeOn) {
             Text("Practice").foregroundColor(.gray)
         }
         .padding(.all, 5.0).foregroundColor(isPracticeOn ? .green : .gray)
         //.overlay(RoundedRectangle(cornerRadius: 15)
-                    //.stroke(lineWidth: 2)
-                    
+        //.stroke(lineWidth: 2)
+        
     }
 }
 

@@ -17,8 +17,8 @@ func scheduleDaily(inputBool: Bool) {
     content.sound = UNNotificationSound.default
 
     var dateComponents = DateComponents()
-    dateComponents.hour = 19
-    dateComponents.minute = 47
+    dateComponents.hour = 9
+    dateComponents.minute = 0
     let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
     //let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false) //REMOVE ME - DEBUG
     
