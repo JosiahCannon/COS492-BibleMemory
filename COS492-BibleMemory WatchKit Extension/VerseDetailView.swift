@@ -24,11 +24,15 @@ struct VerseDetailView: View {
                 let letterCnt = practiceArray[element].count
                 var blank = "_"
                 
-                for _ in 1..<letterCnt {
-                    blank.append("_")
-                }
+                print("DEBUG letterCnt: \(letterCnt)")
                 
-                practiceArray[element] = blank
+                if(letterCnt > 0) {
+                    for _ in 1..<letterCnt {
+                        blank.append("_")
+                    }
+                    
+                    practiceArray[element] = blank
+                }
             }
         }
         
@@ -37,10 +41,10 @@ struct VerseDetailView: View {
         return practiceVerse
     }
     
+    //value of Boolean determines whether to display full text or "practice" text with blanks
     var body: some View {
         ScrollView {
             VStack {
-                //value of Boolean determines whether to display full text or "practice" text with blanks
                 if isPracticeOn {
                     Text(showPractice())
                 }
