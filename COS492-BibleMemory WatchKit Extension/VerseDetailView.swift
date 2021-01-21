@@ -24,7 +24,7 @@ struct VerseDetailView: View {
                 let letterCnt = practiceArray[element].count
                 var blank = "_"
                 
-                print("DEBUG letterCnt: \(letterCnt)")
+                //print("DEBUG letterCnt: \(letterCnt)") //REMOVE ME - DEBUG
                 
                 if(letterCnt > 0) {
                     for _ in 1..<letterCnt {
