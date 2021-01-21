@@ -5,6 +5,8 @@
 //  Created by Josiah Cannon on 1/8/21.
 //
 
+//Note: Creates a "VerseRow" object, i.e. a displayable row that contains Verse info
+
 import SwiftUI
 
 struct VerseRow: View {

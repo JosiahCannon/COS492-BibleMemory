@@ -5,6 +5,8 @@
 //  Created by Josiah Cannon on 1/7/21.
 //
 
+//Note: Creates and sets definition of a "Verse"; no one verse can be the same (due to Identifiable "id")
+
 import SwiftUI
 
 struct Verse: Identifiable, Decodable {

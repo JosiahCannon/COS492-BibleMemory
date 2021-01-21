@@ -5,6 +5,8 @@
 //  Created by Josiah Cannon on 1/7/21.
 //
 
+//Note: Fills array "bookData" with Books from bookData.json
+
 import SwiftUI
 import CoreLocation
 

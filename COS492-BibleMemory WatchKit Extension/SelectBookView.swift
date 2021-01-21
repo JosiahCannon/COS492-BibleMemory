@@ -4,7 +4,13 @@
 //
 //  Created by Josiah Cannon on 1/8/21.
 //
-//  Note: this is the view used when user clicks "Select Verse" NavigationLink
+
+//Note: Note: this is the view used when user clicks "Select Verse" NavigationLink
+    //This view displays a list of rows of all available Books
+    //Logic:
+    //(1) Creates a List
+    //(2) Loops through array of Books (i.e. bookData)
+    //(3) Display a row containing the current Book
 
 import SwiftUI
 

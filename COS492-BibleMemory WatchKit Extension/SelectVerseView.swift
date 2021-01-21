@@ -4,7 +4,15 @@
 //
 //  Created by Josiah Cannon on 12/31/20.
 //
-//  Note: this is the view used when user picks a Book from within SelectBookView
+
+//Note: this is the view used when user picks a Book from within SelectBookView
+    //This view displays a list of rows of all available Verses found within the selected Book
+    //Logic:
+    //(1) Creates a List
+    //(2) Loops through array of Verses (i.e. verseData)
+    //(3) For each Verse object in the array, check if the "fullBook" name of the Verse matches
+        //the "fullName" of the selected book.
+    //(4) If so, display a row containing that Verse
 
 import SwiftUI
 

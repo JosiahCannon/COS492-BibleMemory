@@ -11,6 +11,7 @@ struct VerseDetailView: View {
     var verse: Verse
     @State private var isPracticeOn: Bool = false
     
+    //if isPracticeOn Bool = True, func is called and replaces random words in the String (verse.content) with blanks
     func showPractice() -> String {
         let verseOne: String = verse.content
         var practiceArray = verseOne.components(separatedBy: " ")
@@ -39,6 +40,7 @@ struct VerseDetailView: View {
     var body: some View {
         ScrollView {
             VStack {
+                //value of Boolean determines whether to display full text or "practice" text with blanks
                 if isPracticeOn {
                     Text(showPractice())
                 }
@@ -60,6 +62,7 @@ struct VerseDetailView: View {
     }
 }
 
+//Struct to define a Toggle to control the text displayed on the screen
 struct PracticeToggle: View {
     @Binding var isPracticeOn: Bool
     

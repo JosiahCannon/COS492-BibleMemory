@@ -8,6 +8,7 @@
 import SwiftUI
 import UserNotifications
 
+//func creates a repeating Notification for 9:00AM everyday; func sends this notif request to queue ONLY if NotificationToggle's Boolean is TRUE; func clears all pending notifs if NotifToggle's Boolean is FALSE
 func scheduleDaily(inputBool: Bool) {
     let notifBool: Bool = inputBool
     
@@ -34,10 +35,13 @@ func scheduleDaily(inputBool: Bool) {
     }
 }
 
+//Main Struct, to display the Settings page
 struct SettingsView: View {
+    //These Booleans' values are stored in "@AppStorage", so the app keeps their value the same until it is explicitly changed
     @AppStorage("Authorized") private var isAuthorized: Bool = false
     @AppStorage("Daily") private var isNotifOn: Bool = false
 
+    //Func used to prompt user to give app permission to send notifications, only when user is not already authorized
     func authorizeNotifs() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
             if success {
@@ -51,12 +55,14 @@ struct SettingsView: View {
     
     var body: some View {
         VStack {
+            //Settings page displays "Authorize Notifications" button when user is NOT authorized to receive notifications
             if(!isAuthorized) {
                 Button("Authorize Notifications") {
                     authorizeNotifs()
                 }.padding(.top, 5.0).foregroundColor(.green).multilineTextAlignment(.center)
             }
             
+            //Settings page displays Daily Notif Toggle when user IS authorized to receive notifications
             if(isAuthorized) {
                 NotificationToggle(isNotifOn: $isNotifOn)
             }
@@ -65,14 +71,15 @@ struct SettingsView: View {
     }
 }
 
+//Struct to define a Toggle used for ocntrolling Daily Notifications
 struct NotificationToggle: View {
     @Binding var isNotifOn: Bool
 
     var body: some View {
         VStack {
+            //Toggle/Image changes color based on value of Toggle's Boolean, and toggling the Toggle always calls scheduleDaily() func
             Toggle(isOn: $isNotifOn) {
                 Image(systemName: "clock.arrow.circlepath").foregroundColor(isNotifOn ? .green : .white)
-                
                 Text("Daily").foregroundColor(.white)
             }.onChange(of: isNotifOn, perform: { value in
                 print("DEBUG isNotifOn: \(isNotifOn)")
@@ -86,7 +93,6 @@ struct NotificationToggle: View {
         }
         Spacer()
     }
-    
 }
 
 struct SettingsView_Previews: PreviewProvider {

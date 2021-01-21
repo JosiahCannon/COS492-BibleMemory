@@ -5,6 +5,8 @@
 //  Created by Josiah Cannon on 1/7/21.
 //
 
+//Note: Fills array "verseData" with Verses from verseData.json
+
 import SwiftUI
 import CoreLocation
 
