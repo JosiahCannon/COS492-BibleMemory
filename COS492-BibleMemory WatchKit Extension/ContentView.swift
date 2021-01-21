@@ -17,7 +17,6 @@ struct ContentView: View {
     }
     
     var body: some View {
-        
         //ScrollView allows the user to scroll down the page when not all content can fit at once
         ScrollView {
             VStack() {
