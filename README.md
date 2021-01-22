@@ -15,7 +15,7 @@ Covenant College Capstone Project Repository
 
 //REMOVE ME: make sure all links work, titles match, and no empty titles are included
 
-## General Information(i.e. yeehaw)
+## General Information
 
 ## Project Status
 
