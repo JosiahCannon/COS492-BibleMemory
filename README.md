@@ -23,7 +23,7 @@ Status: build = *complete*
 ## Screenshots
 Taken on Apple Watch Series 6 - 44mm simulator.
 
-<p float="left">
+<div float="left">
   <div>
     ContentView
     <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/ContentView%20-%20COS492.png">
@@ -68,7 +68,7 @@ Taken on Apple Watch Series 6 - 44mm simulator.
   <div>
     <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/Daily%20Notification%20(Long%20Look)%20-%20%20COS492.png">
   </div>
-</p>
+</div>
 
 ## Features
 * Quickly search for and choose a book of the Bible
