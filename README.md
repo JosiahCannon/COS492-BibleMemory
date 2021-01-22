@@ -41,7 +41,8 @@ Taken on Apple Watch Series 6 - 44mm simulator.
 * Quickly search for and choose a book of the Bible
 * Discover a list of pre-chosen Scripture verses for each of the 66 books in the Bible (*English Standard Version* only)
 * Select the individual verse of your choosing and toggle on the "Practice" mode to remove random words from the verse and challenge your memorization skills
-* Push the "Random Verse" button to let the app pick and display a verse for you!
+* Push the "Get Random" button to let the app choose and display a verse for you!
+* Use the Settings page to Authorize app notifications and toggle Daily (9:00AM;repeating) notifications ON or OFF
 
 ## Technologies
 
