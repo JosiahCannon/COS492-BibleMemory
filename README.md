@@ -10,8 +10,6 @@
 * [Credits](#credits)
 * [License](#license)
 
-//REMOVE ME: make sure all links work, titles match, and no empty titles are included
-
 ## General Information
 Covenant College Capstone (SIP) Project for May 2021 Bachelor of Arts in Computer Science.
 
