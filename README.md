@@ -21,10 +21,6 @@ This Scripture memory application is a stand-alone app for watchOS (Apple Watch)
 Status: build = *complete*
 
 ## Screenshots
-//368x448
-//220x269
-//148x180
-
 Taken on Apple Watch Series 6 - 44mm simulator.
 
 <p float="left">
