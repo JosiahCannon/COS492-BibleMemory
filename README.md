@@ -50,9 +50,9 @@ Taken on Apple Watch Series 6 - 44mm simulator.
 * Swift Language Version: Swift 5
 
 Tested On:
-* Local Apple Watch Series 3 - 38mm (version 7.0.2) [through local iPhone SE (2nd generation) - version 14.2]
-* XCode Simulator: Apple Watch Series 3 - 38mm (version 7.2)
-* XCode Simulator: Apple Watch Series 6 - 44mm (version 7.2)
+* Local Apple Watch Series 3 - 38mm (watchOS 7.0.2) [through local iPhone SE (2nd generation) - iOS 14.2]
+* XCode Simulator: Apple Watch Series 3 - 38mm (watchOS 7.2)
+* XCode Simulator: Apple Watch Series 6 - 44mm (watchOS 7.2)
 
 ## Installation
 
