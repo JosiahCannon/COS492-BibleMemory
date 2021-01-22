@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-## General Information
+## General Information (i.e. Motivation)
+
+## Project Status
 
 ## Screenshots
+
+## Features
 
 ## Technologies
 
 ## Setup/Installation
-
-## Features
-
-## Project Status
 
 ## Credits
 
