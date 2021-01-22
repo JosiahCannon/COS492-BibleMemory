@@ -16,11 +16,13 @@
 ## General Information
 Covenant College Capstone (SIP) Project for May 2021 Bachelor of Arts in Computer Science.
 
-This Scripture memory application is a stand-alone app for watchOS (Apple Watch) meant to provide quick access to select Scripture verses for easy memorization and review on the go.
+This Scripture memory application is a stand-alone app for watchOS (Apple Watch) that provides quick access to select Scripture verses for easy memorization and review on the go.
 
 ## Project Status
+Status: build = *complete*
 
 ## Screenshots
+
 
 ## Features
 
