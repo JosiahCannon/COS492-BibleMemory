@@ -1,8 +1,21 @@
 # COS492-BibleMemory
+Covenant College Capstone Project Repository
+
+//ADD ME: add description here
 
 ## Table of Contents
+* [General Information](#general-information)
+* [Project Status](#project-status)
+* [Screenshots](#screenshots)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Installation](#installation)
+* [Credits](#credits)
+* [License](#license)
 
-## General Information (i.e. Motivation)
+//REMOVE ME: make sure all links work, titles match, and no empty titles are included
+
+## General Information
 
 ## Project Status
 
@@ -12,15 +25,12 @@
 
 ## Technologies
 
-## Setup/Installation
+## Installation
 
 ## Credits
 
 ## License
 
-
-
-Covenant College Capstone Project Repository
 
 //ADD ME: give instructions on how to run the project
 
