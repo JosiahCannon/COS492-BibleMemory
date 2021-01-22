@@ -55,7 +55,7 @@ Tested On:
 ## Installation
 To run this app, install locally through XCode:
 *   Copy git repository onto local machine
-*   Launch XCode 12+, and use menubar to click "File/Open..."
+*   Launch XCode 12+, and find "File/Open..." in menubar
 *   Use file browser pop-up to open the project file called "COS492-BibleMemory.xcodeproj" from the copied repository's local directory
 *   Build the project onto the Preview Canvas, a chosen watchOS Simulator, or a local device
 
