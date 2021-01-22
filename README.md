@@ -45,6 +45,9 @@ Taken on Apple Watch Series 6 - 44mm simulator.
 * Use the Settings page to Authorize app notifications and toggle Daily (9:00AM;repeating) notifications ON or OFF
 
 ## Technologies
+* XCode: Version 12.3 (12C33)
+* watchOS Deployment Target: watchOS 7.0
+* Swift Language Version: Swift 5
 
 ## Installation
 
