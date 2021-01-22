@@ -22,6 +22,7 @@ Status: build = *complete*
 
 ## Screenshots
 Taken on Apple Watch Series 6 - 44mm simulator.
+
 <p float="left">
   <div>
     <div>
