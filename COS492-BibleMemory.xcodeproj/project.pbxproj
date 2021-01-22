@@ -121,7 +121,7 @@
 		18170D50259A74E3000D4052 = {
 			isa = PBXGroup;
 			children = (
-				18984D3225BB7469009029F0 /* Screenshots (Apple Watch 6 - 44mm) - COS492 */,
+				18984D3725BB74DF009029F0 /* Resources (Screenshots) */,
 				18170D5F259A74E4000D4052 /* COS492-BibleMemory WatchKit App */,
 				18170D6B259A74E7000D4052 /* COS492-BibleMemory WatchKit Extension */,
 				18170D58259A74E3000D4052 /* Products */,
@@ -206,6 +206,14 @@
 				182536B125B8BA8A0049FD83 /* UserNotifications.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18984D3725BB74DF009029F0 /* Resources (Screenshots) */ = {
+			isa = PBXGroup;
+			children = (
+				18984D3225BB7469009029F0 /* Screenshots (Apple Watch 6 - 44mm) - COS492 */,
+			);
+			path = "Resources (Screenshots)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
