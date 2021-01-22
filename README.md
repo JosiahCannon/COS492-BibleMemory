@@ -23,11 +23,11 @@ Status: build = *complete*
 ## Screenshots
 Taken on Apple Watch Series 6 - 44mm simulator.
 
-  <div style="float: left;">
+  <div style="float:left">
     <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/ContentView%20-%20COS492.png">
   </div>
   
-  <div style="float: left;">
+  <div style="float:left">
     <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/SelectBookView%20-%20COS492.png">
   </div>
   
