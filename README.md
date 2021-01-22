@@ -1,5 +1,4 @@
 # COS492-BibleMemory
-//ADD ME: add description here
 
 ## Table of Contents
 * [General Information](#general-information)
