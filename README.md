@@ -23,6 +23,7 @@ Status: build = *complete*
 ## Screenshots
 Taken on Apple Watch Series 6 - 44mm simulator.
 
+<div>
 <p>
   <div>
     <div>
@@ -60,6 +61,7 @@ Taken on Apple Watch Series 6 - 44mm simulator.
     </div>
   </div>
 </p>
+</div>
 
 ## Features
 * Quickly search for and choose a book of the Bible
