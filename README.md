@@ -37,8 +37,8 @@ Taken on Apple Watch Series 6 - 44mm simulator.
   <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/Default%20Authorization%20Prompt%20-%20COS492.png">
   <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/SettingsView%20(Authorized)%20OFF%20-%20COS492.png">
   <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/SettingsView%20(Authorized)%20ON%20-%20COS492.png">
-  <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/Daily%20Notification%20(Long%20Look)%20-%20%20COS492.png">
   <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/Daily%20Notification%20(Short%20Look)%20-%20COS492.png">
+  <img width="148" height="180" src="https://github.com/JosiahCannon/COS492-BibleMemory/blob/main/Resources%20(Screenshots)/Screenshots%20(Apple%20Watch%206%20-%2044mm)%20-%20COS492/Daily%20Notification%20(Long%20Look)%20-%20%20COS492.png">
 </p>
 
 ## Features
