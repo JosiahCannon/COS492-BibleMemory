@@ -1,6 +1,4 @@
 # COS492-BibleMemory
-Covenant College Capstone Project Repository
-
 //ADD ME: add description here
 
 ## Table of Contents
@@ -16,6 +14,9 @@ Covenant College Capstone Project Repository
 //REMOVE ME: make sure all links work, titles match, and no empty titles are included
 
 ## General Information
+Covenant College Capstone (SIP) Project for May 2021 Bachelor of Arts in Computer Science.
+
+This Scripture memory application is a stand-alone app for watchOS (Apple Watch) meant to provide quick access to select Scripture verses for easy memorization and review on the go.
 
 ## Project Status
 
