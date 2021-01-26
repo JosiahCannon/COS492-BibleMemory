@@ -66,4 +66,6 @@ To run this app, install locally through XCode:
 * Notification code inspiration: https://medium.com/better-programming/scheduling-notifications-and-badges-in-swiftui-9edf8574b893
 
 ## License
-No License - all rights reserved by copyright owner (:copyright: Josiah Cannon)
+MIT License
+
+Copyright :copyright: 2021 Josiah Cannon
