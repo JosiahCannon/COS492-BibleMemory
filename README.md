@@ -43,19 +43,19 @@ Taken on Apple Watch Series 6 - 44mm simulator.
 * Use the Settings page to Authorize app notifications and toggle Daily (9:00AM;repeating) notifications ON or OFF
 
 ## Technologies
-* XCode: Version 12.3 (12C33)
+* Xcode: Version 12.3 (12C33)
 * watchOS Deployment Target: watchOS 7.0
 * Swift Language Version: Swift 5
 
 Tested On:
 * Local Apple Watch Series 3 - 38mm (watchOS 7.0.2) [through local iPhone SE (2nd generation) - iOS 14.2]
-* XCode Simulator: Apple Watch Series 3 - 38mm (watchOS 7.2)
-* XCode Simulator: Apple Watch Series 6 - 44mm (watchOS 7.2)
+* Xcode Simulator: Apple Watch Series 3 - 38mm (watchOS 7.2)
+* Xcode Simulator: Apple Watch Series 6 - 44mm (watchOS 7.2)
 
 ## Installation
 To run this app, install locally through XCode:
 *   Copy git repository onto local machine
-*   Launch XCode 12+, and find "File/Open..." in menubar
+*   Launch Xcode 12+, and find "File/Open..." in menubar
 *   Use file browser pop-up to open the project file called "COS492-BibleMemory.xcodeproj" from the copied repository's local directory
 *   Build the project onto the Preview Canvas, a chosen watchOS Simulator, or a local device
 
